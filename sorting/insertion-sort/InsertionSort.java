@@ -37,9 +37,9 @@ public class InsertionSort {
 			//starts at index 1 sets its item as key
 			for (int j=0;j<i;j++)
 			{
-				key=a[i];
-				if (key<a[j]) {
-					exchange(i,j);
+				key=i;
+				if (a[key]<a[j]) {
+					exchange(key,j);
 				}
 			}
 		}
