@@ -13,9 +13,10 @@ It's constituted from a series of **Comparisons** and **Swaps** that will be ana
 ``` insertion(int[] arr, int left, int right):
     for i:=l+1-->r
       for j=i;j>=0;j--
+        k:=i
         if arr[j]<arr[i]
-          swap(i,j)
-         else
+          swap(k,j)
+        else
           break
 ```
 
