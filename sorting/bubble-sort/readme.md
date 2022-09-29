@@ -15,13 +15,13 @@ The algorithm mainly keep passing through the whole array exchanging adjacent ar
 #### Pseudocode
 ```
 bubble(int[] a, int l, int r)
-  no_swaps:=false
-  while !noswaps
-    no_swaps:=true
+  swapped:=true
+  while swapped
+    swapped:=false
     for i:=l-->r-2
       if a[i]>a[i+1]
         swap(i,i+1)
-        no_swaps:=false
+        swapped:=true
 ```
 
 ### Analysis
@@ -160,7 +160,10 @@ hence the running time of O( $n^2$ )
 
 #### Find a reconfiguration of the array when you really need n passes.
 
-TBD
+TBD. supposedly the array reversed but idk :/
 
-####  
+#### Falg 'swapped'
+
+this flag is added to ease out the sorting process, it's not mandatory;
+suppose we don't have it, we're gonna necessarily require n passes: running time will still be O( $n^2$ )
 
