@@ -23,7 +23,7 @@ insertion(int[] arr, int left, int right):
 
 ### Analysis
 
-This algorithm is not the best algorithm to sort an array, it takes Polynomial Time O( $n^2$ ).
+This algorithm is not the best algorithm to sort an array, it takes Quadratic Time O( $n^2$ ).
 In order to study its *order of growth* we must study the *number of comparisons* and the *number of swaps*. 
 **p.s. swapping takes constant time O(1).**
 
