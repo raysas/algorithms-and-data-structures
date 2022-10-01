@@ -10,9 +10,10 @@ It's constituted from a series of **Comparisons** and **Swaps** that will be ana
 
 ##### Pseudocode
 
-``` insertion(int[] arr, int left, int right):
+``` 
+insertion(int[] arr, int left, int right):
     for i:=l+1-->r
-      for j=i;j>=0;j--
+      for j=i-1;j>=l;j--
         k:=i
         if arr[j]<arr[i]
           swap(k,j)
@@ -87,11 +88,24 @@ since we're repeating n steps in which each may have n compares and swaps, the *
 
 For this particular sorting algorithm, a *partially sorted* array will take less time to sort, and in this case a *sorted* array will take O(n).
 
+sorted array:
+* # of comparisons= n-1
+* # of swaps= 0
+* running time will be O(n)
+
+That's the best case.
+
 
 partially sorted array is:
 * each entry is not too far from its final position
 * small array appended to a large sorted array
 * only few entries not in place
+
+#### Reduce the number of swaps
+
+Swapping one element in an array, especially in a heavy typed language like java will result in swapping a collection of item in between, which results in the high number of exchanges.
+
+One of the ways to fix this is by using a Linked List as a data structure, where the swapping only requires inserting the elemnt by changing the links between nodes
 
 #### Binary Insertion Sort
 
@@ -101,4 +115,4 @@ a change to the algorithm that would decrease the time complexity would be: **Bi
 * turns into O ( $n log(n)$ )
 * binary search on A\[0:i-1] sorted part of the array which take O (log i) times
 
-Not practical, inserting will require shifting --> go back to the worst possible run time of the algori
+Not practical, inserting will require shifting --> go back to the worst possible run time of the algorithm.
