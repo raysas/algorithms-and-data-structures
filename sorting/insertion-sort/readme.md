@@ -89,8 +89,8 @@ since we're repeating n steps in which each may have n compares and swaps, the *
 For this particular sorting algorithm, a *partially sorted* array will take less time to sort, and in this case a *sorted* array will take O(n).
 
 sorted array:
-* # of comparisons= n-1
-* # of swaps= 0
+* #of comparisons= n-1
+* #of swaps= 0
 * running time will be O(n)
 
 That's the best case.
