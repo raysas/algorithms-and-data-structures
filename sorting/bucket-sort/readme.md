@@ -33,7 +33,7 @@ we'll have the following:
 * creating buckets: n
 * merging: k
 
-O($n^2/k + n + k$)=O($n^2$)
+O( $n^2/k+n+k$ )=O( $0n^2$ )
 
 it becomes linear when sorting takes linear time (already sorted)
 
