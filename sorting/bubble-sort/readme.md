@@ -26,7 +26,7 @@ bubble(int[] a, int l, int r)
 
 ### Analysis
 
-To understand how we got a running time of O( $n^2$ ) we have to look at  the *number of swaps* and *numbr of comparisons*
+To understand how we got a running time of O( $n^2$ ) we have to look at  the *number of swaps* and *number of comparisons*
 
 Let's take this particular example:
 
@@ -56,6 +56,7 @@ PASS 1:
 |---|---|---|---|---|
 
 so far :
+
     * biggest element 8 bubbled to the last
     * it took 4 comparisons (n-1)
     * it took 4 swaps (n-1) *(worst case)*
@@ -146,7 +147,7 @@ so far:
 This example does not clearly illustrate the worst worst case, where we would need to go for another pass, but we can conclude from what we've seen that in the worst case we get n passes.
 
 **Why n passes? aren't n-1 enough for each biggest element to go to its respective place?**
-Practically, yes. BUT getting a sorted array does not imply the termonation of the program. In other words, if we get back to the example, the array is sorted at the end of pass 3 but yet, we require another to pass for the program to know that it is actually sorted.
+Practically, yes. BUT getting a sorted array does not imply the termination of the program. In other words, if we get back to the example, the array is sorted at the end of pass 3 but yet, we require another to pass for the program to know that it is actually sorted.
 
 i.e., number of passes= n
 
