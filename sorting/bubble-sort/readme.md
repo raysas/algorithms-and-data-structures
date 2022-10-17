@@ -26,7 +26,7 @@ bubble(int[] a, int l, int r)
 
 ### Analysis
 
-To understand how we got a running time of O( $n^2$ ) we hav eto look at  the *number of swaps* and *numbr of comparisons*
+To understand how we got a running time of O( $n^2$ ) we have to look at  the *number of swaps* and *numbr of comparisons*
 
 Let's take this particular example:
 
