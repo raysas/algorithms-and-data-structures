@@ -49,7 +49,7 @@ Given an m x n binary matrix filled with 0's and 1's, find the largest square co
 
 ### Maximum Product Subarray
 
-[Max Product Subarray](MaxProductSubarray.java): leetcode
+[Max Product Subarray](MaximumProductSubarray.java): leetcode
 
 Given an integer array nums, find a subarray that has the largest product, and return the product.
 
