@@ -2,9 +2,7 @@
 
 ## Algorithms
 
-*series of problems in class/lab/assignments/book... that require DP in order to solve in polynomial time*
-
-some algorithms are directly explained in the comments in java files because i'm too lazy to write them here :/
+*series of problems in class/lab/assignments/book... that require DP in order to solve in polynomial time; some algorithms are directly explained in the comments in java files because i'm too lazy to write them here :/*
 
 ### Edit Distance
 
