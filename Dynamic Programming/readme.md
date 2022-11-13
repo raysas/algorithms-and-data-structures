@@ -97,3 +97,15 @@ find the contiguous subarray within this array of numbers which has the largest 
 output: (sum=6)
 | 4 | -1 | 2 | 1 |
 |---|---|---|---|
+
+### Russian Doll Envelopes
+
+[Russian Doll Envelopes](RussianDoll.java): leetcode, this solution might be slow (merge sort + memoization in matrix) but it certainly is not exponential
+
+Given a 2D array of integers envelopes where envelopes[i] = [wi, hi] represents the width and the height of an envelope.
+
+One envelope can fit into another if and only if both the width and height of one envelope are greater than the other envelope's width and height.
+
+Return the maximum number of envelopes you can Russian doll (i.e., put one inside the other).
+
+**Note: You cannot rotate an envelope.**
