@@ -1,4 +1,4 @@
-public class LSCS{
+public class LargestContiguousSubarray{
   /*
  * --------------------------------------------------------------------------------------------
  * 
@@ -50,6 +50,16 @@ public class LSCS{
  * 
  * --------------------------------------------------------------------------------------------
  */
+	
+	public static void main(String[] args) {
+
+		int[] A={-2,-3,4,-1,-2,1,5,-3};
+		Problem p=new Problem(A);
+		int[] b=p.getSubArray();
+		
+	}
+}
+
 
 class Problem {
 	
@@ -165,11 +175,3 @@ class Problem {
 	
 }
 	
-	public static void main(String[] args) {
-
-		int[] A={-2,-3,4,-1,-2,1,5,-3};
-		Problem p=new Problem(A);
-		int[] b=p.getSubArray();
-		
-	}
-}
