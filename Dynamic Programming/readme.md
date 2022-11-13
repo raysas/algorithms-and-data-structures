@@ -79,7 +79,7 @@ output:
 
 ### Largest Sum Contiguous Subarray (Kadane’s Algorithm)
 
-[Largest Sum Contiguous Subarray](./LSCS.java): a better implementation would be using a 1-d array, also assignment :p 
+[Largest Sum Contiguous Subarray](./LargestContiguousSubarray.java): a better implementation would be using a 1-d array, also assignment :p 
 
 **Given a one-dimensional array of integers, use dynamic programming to
 find the contiguous subarray within this array of numbers which has the largest sum.**
