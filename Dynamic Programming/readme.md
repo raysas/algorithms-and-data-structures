@@ -47,6 +47,20 @@ here the max rectangle is left 4x3 so the program must return 12
 
 Given an m x n binary matrix filled with 0's and 1's, find the largest square containing only 1's and return its area.
 
+### Maximum Product Subarray
+
+[Max Product Subarray](MaxProductSubarray.java): leetcode
+
+Given an integer array nums, find a subarray that has the largest product, and return the product.
+
+*e.g. input:*
+| 2 | 3 | -2 | 4 |
+|---|---|---|---|
+
+output: the product is 6, the subarray would be
+| 2 | 3 |
+|---|---|
+
 ### Longest Increasing Subsequence 
 
 [Longest Increasing Subsequence](./LIS.java): assignment problem that took me a week to think of :p 
