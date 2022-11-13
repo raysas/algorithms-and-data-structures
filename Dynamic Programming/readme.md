@@ -61,6 +61,12 @@ output: the product is 6, the subarray would be
 | 2 | 3 |
 |---|---|
 
+### Maximum Subarray
+
+[Max Subarray](MaximumSubarray.java): similar to [LSCS](./LargestContiguousSubarray.java) but w/o backtracking
+
+Given an integer array nums, find the subarray which has the largest sum and return its sum.
+
 ### Longest Increasing Subsequence 
 
 [Longest Increasing Subsequence](./LIS.java): assignment problem that took me a week to think of :p 
