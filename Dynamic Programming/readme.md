@@ -26,6 +26,26 @@ the minimum amout of operations needed is 3
 
 *this algorithm is especially useful for auto-correction*
 
+### Max Rectangle
+
+[Maximal Rectangle](./MaxRectangle.java): really neat.
+
+Given a rows x cols binary matrix filled with 0's and 1's, find the largest rectangle containing only 1's and return its area.
+
+| 1 | 1 | 1 | 1 | 0 | 1 |
+| 1 | 1 | 1 | 0 | 0 | 1 |
+| 1 | 1 | 1 | 0 | 1 | 1 |
+| 1 | 1 | 1 | 1 | 1 | 1 |
+|---|---|---|---|---|---|
+
+here the max rectangle is left 4x3 so the program must return 12
+
+### Max Square
+
+[Maximal Square](./MaxSquare.java): from lab; same even simpler algorithm than the rectangle one. I solved this one before it
+
+Given an m x n binary matrix filled with 0's and 1's, find the largest square containing only 1's and return its area.
+
 ### Longest Increasing Subsequence 
 
 [Longest Increasing Subsequence](./LIS.java): assignment problem that took me a week to think of :p 
