@@ -35,11 +35,9 @@ Given a rows x cols binary matrix filled with 0's and 1's, find the largest rect
 | 1 | 1 | 1 | 1 | 0 | 1 |
 |---|---|---|---|---|---|
 | 1 | 1 | 1 | 0 | 0 | 1 |
-|---|---|---|---|---|---|
 | 1 | 1 | 1 | 0 | 1 | 1 |
-|---|---|---|---|---|---|
 | 1 | 1 | 1 | 1 | 1 | 1 |
-|---|---|---|---|---|---|
+
 
 here the max rectangle is left 4x3 so the program must return 12
 
