@@ -103,7 +103,7 @@ partially sorted array is:
 
 #### Reduce the number of swaps
 
-Swapping one element in an array, especially in a heavy typed language like java will result in swapping a collection of item in between, which results in the high number of exchanges.
+Swapping one element in an array, especially in a strongly typed language like java will result in swapping a collection of item in between, which results in the high number of exchanges.
 
 One of the ways to fix this is by using a Linked List as a data structure, where the swapping only requires inserting the elemnt by changing the links between nodes
 
