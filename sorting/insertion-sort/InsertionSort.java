@@ -31,18 +31,23 @@ public class InsertionSort {
 	}
 	
 	public void sort() {
-		int key;
+		int key;boolean sorted=false;
 		for (int i=1;i<a.length;i++)
 		{
 			//starts at index 1 sets its item as key
-			for (int j=0;j<i;j++)
+			key=a[i];
+			for (int j=i-1;j>=0 && !sorted;j--)
 			{
-				key=i;
-				if (a[key]<a[j]) {
-					exchange(key,j);
+				printArray(a);
+				
+				if (key<a[j]) {
+					exchange(j+1,j);
 				}
+				else sorted=true;
 			}
+			sorted=false;
 		}
+		
 	}
 	public String toString() {
 		//prints the sorted array
