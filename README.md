@@ -17,6 +17,8 @@ Concluded this maginificent course with an introduction to P-NP completeness (**
 
 album of pictures before each lab on each tuesday for the whole semester with CF and GG
 
-<img src="https://user-images.githubusercontent.com/91915465/209376801-342d2b69-0b3f-4529-a502-4db2ca43e173.jpg" alt="20221223_193018" width="500"/>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/91915465/209376801-342d2b69-0b3f-4529-a502-4db2ca43e173.jpg" alt="20221223_193018" height="800"/>
+</p>
 
 *sorry charbel you're always at the edge😭*
