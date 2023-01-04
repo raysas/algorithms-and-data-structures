@@ -10,7 +10,7 @@ This sorting algorithm requires a Data Structure called a [Heap](#data-structure
 
 #### Priority Queue
 
-It's a structure that implements a set S of elements and each of these elements is associated with a key.
+It's a structure that implements a set S of elements and each of these elements is associated with a key. *This part is from CLRS*
 
 Operations:
 * insert(S, x): insert element x into the set S
@@ -35,22 +35,12 @@ Operations:
   * what it really does is exchange the root with the child that introduced the violation
   * proceeds recursively
   * complexity:
-      The height of the tree is log n. The assumption is that there is a single violation, so we'll go down in a logarithmic time O( $logn$ ).
+      The height of the tree is log n. Complexity would be O(nlogn) however can be proved to be in fact linear
       
-      **It takes O(1) for nodes that are one level above leaves and O (L) for nodes that are L levels above leaves.**
-      
-      **We have n/4 nodes at level 1, n/8 at level 2 ... 1 node at level log n: decrease of nodes as the work increases**.
-      Total amount of work in the for loop is:
-      
-     $n/4 (1 *c)+ n/8 (2 *c)+ n/16 (3 *c)+... + 1 (log n  *c)$
-     
-     Set $n/4=2^k$:
-     
-     $c2^k (1/2^0 + 2/2^1 + 2/2^2 + 3/2^3 + ... + k+1/2^k)$
   * pseudocode:
     ```
     maxHeapify(int[] a, int i):
-      #assume that the trees rooted at left(i) and right(i) are max heaps
+      
     ```
 
 #### Heap
