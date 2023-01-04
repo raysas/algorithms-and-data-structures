@@ -1,6 +1,6 @@
 ## Bucket Sort
 
-Another sorting algorithm that achieve linear running time O(n) in average case.
+Another sorting algorithm that achieve linear running time O(n) in average case. *only one i didn't implement :/*
 
 ### Algorithm
 
@@ -33,7 +33,7 @@ we'll have the following:
 * creating buckets: n
 * merging: k
 
-O( $n^2/k+n+k$ )=O( $0n^2$ )
+O( $n^2/k+n+k$ )=O( $n^2$ )
 
 it becomes linear when sorting takes linear time (already sorted)
 
@@ -45,4 +45,4 @@ All elements fall into the same bucket AND in reverse order :)
 
 #### Sorting buckets
 
-to enhance a worst case of O($n^2$), go for more efficient sorting algorithms such as quick, merge and heap sort that can take linearlogarithmic (quicksort not really but okay). In this case, Linked List are no longer used but rather buckets become arrays. Linked Lists are especially useful for insertion sort (limit number of swaps). However, this will slow down the sorting process, this is why we stick with insertion.
+to enhance a worst case of O( $n^2$ ), go for more efficient sorting algorithms such as quick, merge and heap sort that can take linearlogarithmic (quicksort not really but okay). In this case, Linked List are no longer used but rather buckets become arrays. Linked Lists are especially useful for insertion sort (limit number of swaps). However, this will slow down the sorting process, this is why we stick with insertion.
