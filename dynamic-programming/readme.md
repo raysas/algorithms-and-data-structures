@@ -59,12 +59,6 @@ output: the product is 6, the subarray would be
 | 2 | 3 |
 |---|---|
 
-### Maximum Alignment
-
-[Max Alignment](./MaximumAlignment.java): lab exam 2 question
-
-
-
 ### Maximum Subarray
 
 [Max Subarray](MaximumSubarray.java): similar to [LSCS](./LargestContiguousSubarray.java) but w/o backtracking
